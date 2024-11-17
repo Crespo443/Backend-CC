@@ -15,7 +15,6 @@ const createChat = async (req, res) => {
       chatId,
       userId,
       title,
-      messages: [],
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
     });
